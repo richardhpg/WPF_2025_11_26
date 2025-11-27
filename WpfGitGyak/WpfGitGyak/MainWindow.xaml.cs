@@ -20,5 +20,10 @@ namespace WpfGitGyak
         {
             InitializeComponent();
         }
+
+        private void btnMessage_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Titkos üzenet", "Üzenet", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }
